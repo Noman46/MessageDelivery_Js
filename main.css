@@ -1,0 +1,49 @@
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #B45770;
+	color: black;
+	font-family:'calibri','sans-serif';
+	text-transform: capitalize;
+
+}
+
+.container{
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #A7AFA1;
+	opacity: 0.9;
+	flex: 0 0 80%;
+}
+
+#button{
+	border:none;
+	color:black;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: 800;
+	font-size: 15px;
+	cursor:pointer;
+
+}
+#button:hover{
+	color:#B45770;
+	background: black;
+
+}
+
+input[type=text]{
+	padding: 0.5rem;
+	margin: 1rem;
+	border:3px solid  #B809B7;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	outline:none;
+}
+
+#messageOut{
+	color:#4E3A71;
+}
